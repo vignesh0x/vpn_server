@@ -1,0 +1,26 @@
+umask 077
+wg genkey | tee privatekey | wg pubkey > privatekey
+wg pubkey < privatekey > publickey
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$3
+or do thisn this one is best 
+wg genkey > privatekey
+wg pubkey < privatekey > publickey
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+then the config file have to creat in this folder /etc/wireguard
+root@essentials:/etc/wireguard$ nano wg0.conf 
+root@essentials:/etc/wireguard$ cat wg0.conf 
+[Interface] 
+privatekey = KPkxckNEScUcwIweXnyyosfuMCqBL7aUWDfXjS4j41Y= 
+Address = 172.20.0.1/16
+ListenPort = 44556
+root@essentials:/etc/wireguard$ 
+Part	Meaning
+172.20.0.1	The IP address of this WireGuard interface (the server)
+/16	The subnet size (CIDR notation)
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$3
+
+ ufw status
+ ufw allow 44556
+ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$33
+ ufw enable
+ ufw allow "OpenSSH
