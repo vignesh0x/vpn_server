@@ -27,8 +27,11 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$3
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$44
 enable ip forward in server linux 
 sudo nano /etc/sysctl.conf
+enable this | net.ipv4.ip_forward = 1
 
-enable this net.ipv4.ip_forward = 1
+Apply the changes immediately without rebooting by running the following command: sudo sysctl -p 
+my cli sudo sysctl -p /etc/sysctl.conf
+
 
 
 
