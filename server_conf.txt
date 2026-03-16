@@ -1,3 +1,7 @@
+create an folder called 
+mkdir keys
+inside that folder gen the keys 
+mkdir keys
 umask 077
 wg genkey | tee privatekey | wg pubkey > privatekey
 wg pubkey < privatekey > publickey
