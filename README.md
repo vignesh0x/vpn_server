@@ -310,5 +310,5 @@ sudo ufw status               # Check firewall rules
 ---
 
 > Made with Vignesh❤️ — Feel free to fork and improve this guide!
-
 > 🌐 Website: [vignesh.zeal.ninja](http://vignesh.zeal.ninja/)
+> 🌐 Wireguard: [wireguard.com](https://www.wireguard.com/)
