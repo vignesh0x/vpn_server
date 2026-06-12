@@ -313,3 +313,4 @@ sudo ufw status               # Check firewall rules
 > 🌐 Website: [vignesh.zeal.ninja](http://vignesh.zeal.ninja/)
 
 - Co-working with rasvanth07
+- Validated collaboration with rasvanth07
