@@ -296,7 +296,7 @@ sudo ufw status               # Check firewall rules
 
 ---
 
-## 🛠️ Troubleshooting
+## 🛠️ Troubleshooting 🛠️
 
 **Can't connect?**
 - Double check that the server's public IP and port are correct in the client config
